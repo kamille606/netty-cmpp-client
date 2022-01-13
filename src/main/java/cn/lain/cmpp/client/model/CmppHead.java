@@ -9,13 +9,13 @@ public abstract class CmppHead {
 
     @Getter
     @Setter
-    protected int totalLength;/* 不允许自行设置，doEncode()的时候会自动计算 */
+    protected int totalLength;/* 大小4字节 不允许自行设置，doEncode()的时候会自动计算 */
     @Getter
     @Setter
-    protected int commandId; /* 不允许自行设置，对象创建时根据构造函数设置 */
+    protected int commandId; /* 大小4字节 不允许自行设置，对象创建时根据构造函数设置 */
     @Getter
     @Setter
-    protected int sequenceId;/* 需要自行赋值，请求与响应的相对应，无论上下行 */
+    protected int sequenceId;/* 大小4字节 需要自行赋值，请求与响应的相对应，无论上下行 */
 
     protected byte[] msgBytes;
 
