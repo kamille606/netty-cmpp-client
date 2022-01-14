@@ -1,6 +1,6 @@
-package cn.lain.cmpp.client.model.request;
+package cn.lain.cmpp.model.request;
 
-import cn.lain.cmpp.client.model.CmppHead;
+import cn.lain.cmpp.model.CmppHead;
 import com.google.common.primitives.UnsignedBytes;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -8,7 +8,7 @@ import lombok.Setter;
 
 import java.nio.ByteBuffer;
 
-import static cn.lain.cmpp.client.constant.CmppConst.APP_SUBMIT;
+import static cn.lain.cmpp.constant.CmppConst.APP_SUBMIT;
 
 @Getter
 @Setter

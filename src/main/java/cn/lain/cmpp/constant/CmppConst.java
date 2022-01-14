@@ -1,4 +1,4 @@
-package cn.lain.cmpp.client.constant;
+package cn.lain.cmpp.constant;
 
 public class CmppConst {
     /**

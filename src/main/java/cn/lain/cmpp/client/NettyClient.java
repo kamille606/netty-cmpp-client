@@ -3,7 +3,7 @@ package cn.lain.cmpp.client;
 import cn.lain.cmpp.client.handler.CmppDecoder;
 import cn.lain.cmpp.client.handler.CmppEncoder;
 import cn.lain.cmpp.client.handler.CmppHandler;
-import cn.lain.cmpp.client.model.CmppHead;
+import cn.lain.cmpp.model.CmppHead;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;

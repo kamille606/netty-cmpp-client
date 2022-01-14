@@ -1,15 +1,15 @@
-package cn.lain.cmpp.client.model.request;
+package cn.lain.cmpp.model.request;
 
-import cn.lain.cmpp.client.model.CmppHead;
+import cn.lain.cmpp.model.CmppHead;
 
 import java.nio.ByteBuffer;
 
-import static cn.lain.cmpp.client.constant.CmppConst.CMPP_TERMINATE;
+import static cn.lain.cmpp.constant.CmppConst.APP_ACTIVE_TEST;
 
-public class Terminate extends CmppHead {
+public class ActiveTest extends CmppHead {
 
-    public Terminate() {
-        commandId = CMPP_TERMINATE;
+    public ActiveTest() {
+        commandId = APP_ACTIVE_TEST;
     }
 
     @Override

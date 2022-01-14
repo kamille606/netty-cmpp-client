@@ -1,12 +1,12 @@
-package cn.lain.cmpp.client.model.response;
+package cn.lain.cmpp.model.response;
 
-import cn.lain.cmpp.client.model.CmppHead;
+import cn.lain.cmpp.model.CmppHead;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.nio.ByteBuffer;
 
-import static cn.lain.cmpp.client.constant.CmppConst.CMPP_CANCEL_RESP;
+import static cn.lain.cmpp.constant.CmppConst.CMPP_CANCEL_RESP;
 
 @Getter
 @Setter

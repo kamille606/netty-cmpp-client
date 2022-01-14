@@ -1,4 +1,4 @@
-package cn.lain.cmpp.client.model;
+package cn.lain.cmpp.model;
 
 import lombok.Getter;
 import lombok.Setter;
